@@ -745,9 +745,17 @@ footer{
     }
 
     .info-card{
+        width:100%;
+        max-width:100%;
         padding:24px;
         flex-direction:column;
         align-items:flex-start;
+    }
+
+    .text-content{
+        width:100%;
+        max-width:100%;
+        min-width:0;
     }
 
     .image-container{
